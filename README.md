@@ -16,3 +16,6 @@ For client-broker authentication, configure the below environment variables:
 - OAUTH_GRANT_TYPE : Grant Type used at OAuth server. Example: client_credentials
 - OAUTH_SCOPE : User scope(in case of interbroker). Example: producer.kafka
 - OAUTH_AUTHORIZATION : Refresh token of client user. Example: Basic {TOKEN}
+
+## Credits
+Crdits to https://github.com/jairsjunior/kafka-oauth as classes are taken from there and did some modification to use it.
